@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - this is the main function
  *
  * Description: A C program
  *
- * return: always 0
+ * return: always 0 (Success)
  */
 
 int main(void)
