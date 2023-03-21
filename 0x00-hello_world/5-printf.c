@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Program showing how to use Printf
+ * main - Entry point
  *
- * Description: A C program that prints with printf function
+ * Description: A C program that prints with printf function.
  *
- * return: 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
