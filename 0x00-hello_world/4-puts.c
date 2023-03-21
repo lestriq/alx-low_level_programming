@@ -3,6 +3,8 @@
 /**
  * main - main function
  *
+ * Description: A C program
+ *
  * return: always 0
  */
 
