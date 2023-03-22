@@ -5,8 +5,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	char x;
+	char i;
 
-	for (x = z ; x >=a ;i x--)
-		putchar("x");
+	for (i = "z" ; i >= "a" ; i--)
+		putchar(i);
+	putchar("\n")
 	return (0);
