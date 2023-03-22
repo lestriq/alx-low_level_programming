@@ -13,11 +13,10 @@ int main(void)
 {
 	int i = 0;
 
-	while (i <= 9)
+	for (i = 0; i < 10, i++)
 
 		/*convert i to ASCII representation*/
 		putchar(i + '0');
-		putchar('\n');
-
+	putchar('\n');
 	return (0);
 }
