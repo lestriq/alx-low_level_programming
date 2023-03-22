@@ -7,6 +7,6 @@
 int main(void)
 	int x;
 
-	for x (x = z ; x >=a ; x++)
-		printf("x");
-	return; (0);
+	for x (x = z ; x >=a ;i x--)
+		putchar("x");
+	return (0);
