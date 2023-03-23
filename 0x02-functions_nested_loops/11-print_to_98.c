@@ -1,20 +1,30 @@
+#include <stdio.h>
 #include "main.h"
-   /**
-   * jack_bauer - prints every minute of the day 
-   *              from 00:00 to 23:59
-   */
-    void jack_bauer(void) 
-  {  
-     int hour, minute;
 
-   for (hour = 0; hour <= 23; hour ++) 
-        {
-           for (minute = 0; minute <= 59; minute++)
- { 
-          _putchar ((hour / 10) + ('0');
-          _putchar ((hour % 10) + ('0');
-          _putchar (':');
-          _putchar ((minute / 10) + ('0');
-          _putchar ((minute % 10) + ('0');
-          _putchar ('\n');
-   } 
+/**
+ *print_to_98 - prints all natural numbers from n to 98
+ * @n: input number to check
+ * Return: nothing.
+ */
+
+void print_to_98(int n)
+{
+	if (n < 98)
+	{
+		for (; n < 98; n++)
+		{
+			printf("%d, ", n);
+		}
+	}
+	else if (n > 98)
+	{
+		for (; n > 98; n--)
+		{
+			printf("%d, ", n);
+		}
+	}
+	if (n == 98)
+	{
+		printf("%d\n", n);
+	}
+} 
